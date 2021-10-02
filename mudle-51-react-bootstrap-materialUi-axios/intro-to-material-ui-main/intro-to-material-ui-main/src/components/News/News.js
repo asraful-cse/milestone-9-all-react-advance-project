@@ -4,6 +4,7 @@ import React from 'react';
 const News = (props) => {
     const { title, description, urlToImage } = props.article;
     return (
+
         <Card sx={{ maxWidth: 345 }}>
             <CardHeader
                 avatar={
